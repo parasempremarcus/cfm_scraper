@@ -32,7 +32,7 @@ If no Recaptcha appears, the program proceeds with the `scrape()` function, whic
 
 Once the data is collected and stored in a list with a dictionary for each doctor, the `selecionar_formato()` function is called. This function prompts the user to choose the desired format for exporting the data: calling `extrair_excel()` for Excel or `extrair_csv()` for CSV, thereby generating the respective file.
 
-<img src="img/cli_sample.png" alt="CLI Sample" width="500"/>
+<img src="img/cli_sample.png" alt="CLI Sample" width="900"/>
 
 ### `miscellaneous.py`
 This file stores all the lists and dictionaries essential for the program's proper execution, contributing to the readability of `project.py`.
