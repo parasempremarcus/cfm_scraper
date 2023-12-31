@@ -2,7 +2,7 @@
 <img src="img/endgame_title.png" alt="CFM Logo" width="780"/>
 A web scraper of the database made publicly available by the Federal Council of Medicine (CFM)
 
-## Contextualization 🕵️‍♂️
+## Background 🕵️‍♂️
 CFM Scraper is a Python-based web scraper designed to extract valuable information from the publicly available database of the Federal Council of Medicine (Conselho Federal de Medicina, CFM) in Brazil. The CFM oversees professional regulations and licensing for medical practitioners nationwide.
 
 The CFM website provides access to a comprehensive database containing crucial details about all registered doctors in Brazil, including their registration number (CRM), primary and secondary states of practice, specialty, graduation date, and other pertinent data. However, due to the lack of an official API and the sheer volume of data, extracting information for in-depth analysis becomes challenging using the council's search interface alone.
