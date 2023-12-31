@@ -25,6 +25,8 @@ The main objectives of the program include extracting the doctor's CRM, name, ty
 - **time** ⏰: Provides cooldown between Selenium processes
 - **openpyxl** 📊: A Pandas helper for exporting data to Excel
 
+## Functionality ✨
+
 The program initiates by opening the Chrome browser, accepting cookies, and prompting the user to input the desired filters using the `coletar()` function. Subsequently, these filters are applied on the website through the `preencher()` function, initiating the search process. In case of a Google Recaptcha challenge, the `anti_recaptcha()` function is invoked within `preencher()` to handle it.
 
 If no Recaptcha appears, the program proceeds with the `scrape()` function, which collects the data based on the user's specified filters. If a Recaptcha does appear, the `anti_recapcha()` function resolves it before continuing with `scrape()`.
