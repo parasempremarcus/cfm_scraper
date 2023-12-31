@@ -1,7 +1,5 @@
 # 🤖 CFM Scraper
-
 <img src="img/cfm_crms.png" alt="CFM Logo" width="600"/>
-
 ## Context 🕵️‍♂️
 CFM Scraper is a Python-based web scraper designed to extract valuable information from the publicly available database of the Federal Council of Medicine (Conselho Federal de Medicina, CFM) in Brazil. The CFM oversees professional regulations and licensing for medical practitioners nationwide.
 
