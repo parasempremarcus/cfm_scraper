@@ -1,5 +1,6 @@
 # 🤖 CFM Scraper
 ![CFM Logo](img/cfm_crms.png)
+
 A web scraper of the database made publicly available by the Federal Council of Medicine (CFM)
 
 ## Context 🕵️‍♂️
