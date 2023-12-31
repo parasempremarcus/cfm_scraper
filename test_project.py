@@ -1,5 +1,5 @@
 import pytest
-from project import coletar, selecionar_formato, exportar_csv, exportar_excel
+from project import selecionar_formato, exportar_csv, exportar_excel
 
 data = [{'CRM': '12882-BA', 'Nome': 'Ademar Ferreira da Silva Júnior', 'Inscrição': 'Principal', 'Situação': 'Regular'}]
 pesquisa = ['são paulo', 'neurocirurgia', 'principal', 'ativo']
