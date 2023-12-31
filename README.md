@@ -18,11 +18,11 @@ To use the scraper effectively, the user needs to provide the following filters:
 4. Situation of registration (Ativo or Inativo)
 
 The main objectives of the program include extracting the doctor's CRM, name, type of registration, and registration status. Key packages utilized in this project are:
-- **Selenium**: Main package for web scraping
-- **Pandas**: Used for data manipulation and storage
-- **alive-bar**: Implements a progress bar in the terminal
-- **time**: Provides cooldown between Selenium processes
-- **openpyxl**: A Pandas helper for exporting data to Excel
+- **Selenium** 🌐: Main package for web scraping
+- **Pandas** 🐼: Used for data manipulation and storage
+- **alive-bar** 🔄: Implements a progress bar in the terminal
+- **time** ⏰: Provides cooldown between Selenium processes
+- **openpyxl** 📊: A Pandas helper for exporting data to Excel
 
 The program initiates by opening the Chrome browser, accepting cookies, and prompting the user to input the desired filters using the `coletar()` function. Subsequently, these filters are applied on the website through the `preencher()` function, initiating the search process. In case of a Google Recaptcha challenge, the `anti_recaptcha()` function is invoked within `preencher()` to handle it.
 
