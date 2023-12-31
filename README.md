@@ -10,7 +10,6 @@ The CFM website provides access to a comprehensive database containing crucial d
 This project aims to facilitate data extraction by providing a web scraping solution that exports the collected information into an Excel spreadsheet or a CSV file.
 
 ## Usage 🚀
-
 To use the scraper effectively, the user needs to provide the following filters:
 1. Brazilian state for data collection (in Portuguese, e.g., Rio de Janeiro)
 2. Specialty of doctors (e.g., Neurocirurgia)
