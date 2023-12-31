@@ -1,5 +1,5 @@
 # 🤖 CFM Scraper
-<img src="img/title_01.png" alt="CFM Logo" width="800"/>
+<img src="img/final_title.png" alt="CFM Logo" width="800"/>
 A web scraper of the database made publicly available by the Federal Council of Medicine (CFM)
 
 ## Context 🕵️‍♂️
