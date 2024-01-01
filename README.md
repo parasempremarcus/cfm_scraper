@@ -1,5 +1,3 @@
-<img src="img/endgame_title.png" alt="CFM Logo" width="780"/>
-
 <div align="center">
   <img src="img/endgame_title.png" alt="CFM Logo" width="780"/>
 </div>
