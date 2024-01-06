@@ -1,4 +1,3 @@
-# 🤖 CFM Scraper
 <img src="img/endgame_title.png" alt="CFM Logo" width="780"/>
 A web scraper of the database made publicly available by the Federal Council of Medicine (CFM)
 
