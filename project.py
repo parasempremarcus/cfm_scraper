@@ -53,10 +53,10 @@ def selecionar_formato(formato, dados_cfm, pesquisa):
 def coletar():
     coleta: list = []
     try:
-        coleta.append(input("➣  State: ").lower())
-        coleta.append(input("➣  Specialization: ").lower())
-        coleta.append(input("➣  Registration Type: ").lower())
-        coleta.append(input("➣  Situation: ").lower())
+        coleta.append(input("➤  State: ").lower())
+        coleta.append(input("➤  Specialization: ").lower())
+        coleta.append(input("➤  Registration Type: ").lower())
+        coleta.append(input("➤  Situation: ").lower())
         return coleta # ['são paulo', 'neurocirurgia', 'principal', 'ativo']
     except:
         raise ValueError
