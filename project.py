@@ -28,12 +28,12 @@ def main():
 
     while True:
         try:
-            print("=======================================")
+            print("=====================================")
             formato = input("📦 CSV or Excel: ").lower()
             print(selecionar_formato(formato, dados_cfm, pesquisa))
             break
         except ValueError:
-            print("--------------------------------")
+            print("-------------------------------------")
             print("❌ INVALID FORMAT, TRY AGAIN ❌")
             continue
 
@@ -53,7 +53,7 @@ def selecionar_formato(formato, dados_cfm, pesquisa):
 def coletar():
     coleta: list = []
     try:
-        coleta.append(input("➣  State (no abbreviation): ").lower())
+        coleta.append(input("➣  State: ").lower())
         coleta.append(input("➣  Specialization: ").lower())
         coleta.append(input("➣  Registration Type: ").lower())
         coleta.append(input("➣  Situation: ").lower())
@@ -107,8 +107,8 @@ def scrape():
     paginação = driver.find_element(By.CLASS_NAME, 'paginationjs-pages')
     total_médicos = int(driver.find_element(By.XPATH, '//*[@id="resultados"]').text.split(' ')[0])
     print('==========================')
-    print(f'💎 TOTAL DOCTORS: {total_médicos}')
-    print('==========================')
+    print(f'💎 TOTAL DE MÉDICOS: {total_médicos}')
+    print('--------------------------')
 
     total_páginas = int(paginação.find_elements(By.CSS_SELECTOR, 'li.paginationjs-page')[-1].text)
     página_atual: int = 1
